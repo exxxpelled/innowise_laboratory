@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lecture-1"
+version = "0.1.0"
+description = "Innowise Laboratory — Lecture 1"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = "^0.4.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
